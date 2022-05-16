@@ -1,0 +1,60 @@
+@font-face {
+    font-family: koho-light;
+    src: url(koho-light.ttf);
+}
+
+@font-face {
+    font-family: koho-bold;
+    src: url(koho-bold.ttf);
+}
+
+@font-face {
+    font-family: koho-boldItalic;
+    src: url(koho-boldItalic.ttf);
+}
+
+@font-face {
+    font-family: koho-extraLight;
+    src: url(koho-extraLight.ttf);
+}
+
+@font-face {
+    font-family: koho-extraLightItalic;
+    src: url(koho-extraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: koho-italic;
+    src: url(koho-italic.ttf);
+}
+
+@font-face {
+    font-family: koho-lightItalic;
+    src: url(koho-lightItalic.ttf);
+}
+
+@font-face {
+    font-family: koho-medium;
+    src: url(koho-medium.ttf);
+}
+
+@font-face {
+    font-family: koho-mediumItalic;
+    src: url(koho-mediumItalic.ttf);
+}
+
+@font-face {
+    font-family: koho-regular;
+    src: url(koho-regular.ttf);
+}
+
+@font-face {
+    font-family: koho-semiBold;
+    src: url(koho-semiBold.ttf);
+}
+
+@font-face {
+    font-family: koho-semiboldItalic;
+    src: url(koho-semiboldItalic.ttf);
+}
+

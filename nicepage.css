@@ -4,6 +4,24 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+/* Custom Koho Font Style */
+* {
+  /* font-family: koho-light; */
+  /* font-family: koho-bold; */
+  /* font-family: koho-boldItalic; */
+  /* font-family: koho-extraLight; */
+  /* font-family: koho-extraLightItalic; */
+  /* font-family: koho-italic; */
+  /* font-family: koho-lightItalic; */
+  font-family: koho-medium;
+  /* font-family: koho-mediumItalic; */
+  /* font-family: koho-regular; */
+  /* font-family: koho-semiBold; */
+  /* font-family: koho-semiboldItalic; */
+}
+
+
+
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -118,7 +136,7 @@
         color: #43A047; } */
   .fr-view span.fr-emoticon {
     font-weight: normal;
-    font-family: "Apple Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols";
+    font-family: koho-medium;
     display: inline;
     line-height: 0; }
     .fr-view span.fr-emoticon.fr-emoticon-img {
@@ -154,7 +172,7 @@
     background-clip: padding-box;
     background: #f5f5f5;
     padding: 10px;
-    font-family: "Courier New", Courier, monospace; }
+    font-family: koho-medium }
   .fr-view .fr-class-transparency {
     opacity: 0.5; }
   .fr-view img {
@@ -363,7 +381,7 @@ span.fr-img-caption.fr-view {
 /*end-commonstyles library*/@charset "UTF-8";
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: koho-medium;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -455,7 +473,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace,monospace;
+  font-family: koho-medium;
   font-size: 1em;
 }
 hr {
@@ -1019,7 +1037,7 @@ ol {
   cursor: pointer;
   color: inherit;
   font-size: inherit;
-  font-family: inherit;
+  font-family: koho-medium;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -1073,7 +1091,7 @@ ol {
 .u-tab-item a,
 .u-nav-item a {
   font-size: inherit;
-  font-family: inherit;
+  font-family: koho-medium;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -1141,7 +1159,7 @@ a {
   font-style: inherit !important;
   font-size: inherit !important;
   font-weight: inherit !important;
-  font-family: inherit !important;
+  font-family: koho-medium;
   line-height: inherit !important;
   letter-spacing: inherit !important;
   text-transform: inherit !important;
@@ -1149,7 +1167,7 @@ a {
 .u-logo {
   color: inherit;
   font-size: inherit;
-  font-family: inherit;
+  font-family: koho-medium;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -15297,7 +15315,7 @@ div.u-video,
   display: block;
   white-space: nowrap;
   font-size: inherit;
-  font-family: inherit;
+  font-family: koho-medium;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -15762,58 +15780,58 @@ p {
   word-break: break-all;
 }
 .u-font-arial.u-custom-font {
-  font-family: Arial, sans-serif !important;
+  font-family: koho-medium;
 }
 .u-font-courier-new.u-custom-font {
-  font-family: 'Courier New', monospace !important;
+  font-family: koho-medium;
 }
 .u-font-georgia.u-custom-font {
-  font-family: Georgia, serif !important;
+  font-family: koho-medium;
 }
 .u-font-roboto.u-custom-font {
-  font-family: Roboto, sans-serif !important;
+  font-family: koho-medium;
 }
 .u-font-open-sans.u-custom-font {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: koho-medium;
 }
 .u-font-lato.u-custom-font {
-  font-family: Lato, sans-serif !important;
+  font-family: koho-medium;
 }
 .u-font-montserrat.u-custom-font {
-  font-family: Montserrat, sans-serif !important;
+  font-family: koho-medium;
 }
 .u-font-roboto-condensed.u-custom-font {
-  font-family: 'Roboto Condensed', sans-serif !important;
+  font-family: koho-medium;
 }
 .u-font-source-sans-pro.u-custom-font {
-  font-family: 'Source Sans Pro', sans-serif !important;
+  font-family: koho-medium;
 }
 .u-font-oswald.u-custom-font {
-  font-family: Oswald, sans-serif !important;
+  font-family: koho-medium;
 }
 .u-font-raleway.u-custom-font {
-  font-family: Raleway, sans-serif !important;
+  font-family: koho-medium;
 }
 .u-font-pt-sans.u-custom-font {
-  font-family: 'PT Sans', sans-serif !important;
+  font-family: koho-medium;
 }
 .u-font-ubuntu.u-custom-font {
-  font-family: Ubuntu, sans-serif !important;
+  font-family: koho-medium;
 }
 .u-font-titillium-web.u-custom-font {
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: koho-medium;
 }
 .u-font-merriweather.u-custom-font {
-  font-family: Merriweather, serif !important;
+  font-family: koho-medium;
 }
 .u-font-roboto-slab.u-custom-font {
-  font-family: 'Roboto Slab', serif !important;
+  font-family: koho-medium;
 }
 .u-font-playfair-display.u-custom-font {
-  font-family: 'Playfair Display', serif !important;
+  font-family: koho-medium;
 }
 .u-font-lobster.u-custom-font {
-  font-family: Lobster, display !important;
+  font-family: koho-medium;
 }
 .u-rectangle {
   border-radius: 0;
@@ -15897,7 +15915,7 @@ section.u-opacity:before,
 .u-social-url {
   color: inherit;
   font-size: inherit;
-  font-family: inherit;
+  font-family: koho-medium;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -16001,7 +16019,7 @@ blockquote .small:before {
   padding-left: 0.8em;
 }
 .u-search input::placeholder {
-  font-family: inherit;
+  font-family: koho-medium;
 }
 .u-search-icon {
   box-sizing: content-box;
@@ -19110,7 +19128,7 @@ a.pswp__share--download:hover {
 }
 .u-accordion-link {
   font-size: inherit;
-  font-family: inherit;
+  font-family: koho-medium;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -19219,7 +19237,7 @@ a.pswp__share--download:hover {
 .u-carousel-control-next {
   color: inherit;
   font-size: inherit;
-  font-family: inherit;
+  font-family: koho-medium;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -21336,7 +21354,7 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: 'Open Sans',sans-serif;
+  font-family: koho-medium;
 }
 h1,
 h2,
@@ -21344,7 +21362,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto,sans-serif;
+  font-family: koho-medium;
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -21365,10 +21383,10 @@ h6 {
 /*end-variables color*/
 /*begin-variables font*/
 .u-custom-font.u-text-font {
-  font-family: 'Open Sans',sans-serif !important;
+  font-family: koho-medium;
 }
 .u-custom-font.u-heading-font {
-  font-family: Roboto,sans-serif !important;
+  font-family: koho-medium;
 }
 /*end-variables font*/
 /*begin-variables colors*/
